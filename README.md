@@ -32,7 +32,7 @@ Final selection of the model
 Technical Details for ML :
 _ Started with loading the data so far I have done EDA ,feature engineering , data cleaning, target encoding and one hot encoding of categorical columns, feature selection and then model building and hyperparameter tunning.
 
-Above results for models seems fair enough and I have been able to correctly predict views 80% of the time. ###After hyper parameter tuning, I have prevented overfitting and decreased errors by reducing learning rate. ###Given that only have 20% errors, my models have performed very well on unseen data due to various factors like feature selection,correct model selection and hyperparameter tunning etc.
+ Results for models seems fair enough and I have been able to correctly predict views 80% of the time. ### After hyper parameter tuning, I have prevented overfitting and decreased errors by reducing learning rate. ### Given that only have 20% errors, my models have performed very well on unseen data due to various factors like feature selection,correct model selection and hyperparameter tunning etc.
 
 I have used four models for the views prediction started inclusing Linear regression, Ramdom forest, XtremeGradientBoost, Random forest and Cat boost.
 
@@ -40,12 +40,12 @@ Out of my 4 models including the hyperparameter also I have seen that Catboost m
 
 
 
-We used many Algorithms ( Random Forest , XGBoost and CatBoost ) I have used RandomSearchCV for HyperParameter Tuning Comparing both R2 Score , we can see that Random Forest and XGBoost model performs the best and catboost.
+I used many Algorithms ( Random Forest , XGBoost and CatBoost ) I have used RandomSearchCV for HyperParameter Tuning Comparing both R2 Score , we can see that Random Forest and XGBoost model performs the best and also catboost.
 
 Technical Insights from exploring the Data :
 ● For the ML Pipeline , the XGBoost Model performed the best ● For the NLP Pipeline , the Random Forest Model performed the Best ● Feature Engineering and Feature Extraction helped in increasing the model performance
 
-Conclusions : Insights from exploring the Data :
+# Conclusions : Insights from exploring the Data :
 ● Topics like Technology , Science , Education , Biology attract the attention of viewers more than other topics . ● Entrepreneurs and Activists are the most engaging speakers
 
 # Python Libraries used
