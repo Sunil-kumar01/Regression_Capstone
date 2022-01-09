@@ -63,3 +63,14 @@ Scikit-Learn
 SK-Opt
 XGBoost
 CatBoost
+# Summary
+Started with data loading data and importing the libraries and then with exploring the data and looking into columns using visualization. I have seen a few columns for the null values and outliers as well.
+I treated the data accordingly and since I have categorical data with me so I did target encoding and one hot ending on given columns. Since some values were varying and causing the heteroskedasticity. I have done standardization accordingly.
+I have explored the data and looked for the trend in bi-variate analysis.
+I have checked that views are correlated with the speakers as shown top 5 speakers with daily views exceeding 100000.
+More talks session delivered is showing that more views and popularity also the duration is not much influenced when there are poplar speakers.
+Finally, I started modelling and saw XGBoost, cat boost and random forest performs well. For score improvement, I have used regularization and Hyperparameter tunning.
+I have faced many challenges during this project starting with looking for converting the categorical data into numerical and standardization also selecting the right amount of features.
+I have made a few observations that keeping the right amount of features and right feature selection is very important and finally are responsible for your model betterment and good accuracy.
+I have faced some challenges during converting the str type of column to the dictionary type.
+
